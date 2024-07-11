@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sojal Nair - Portfolio</title>
+    <style>
+        /* Reset default margin and padding */
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* Global styles */
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        /* Header styles */
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        header p {
+            font-size: 1.2rem;
+        }
+        /* About section styles */
+        
+        #about {
+            background-color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        
+        #about h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        #about img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+        }
+        /* Skills section styles */
+        
+        #skills {
+            background-color: #f9f9f9;
+            text-align: center;
+            padding: 15rem 0;
+        }
+        
+        #skills h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        #skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        #skills li {
+            display: inline-block;
+            background-color: #ddd;
+            color: #333;
+            font-size: 1.2rem;
+            padding: 0.5rem 1rem;
+            margin: 0.5rem;
+            border-radius: 20px;
+        }
+        /* Projects section styles */
+        
+        #projects {
+            background-color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        
+        #projects h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .project {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+        
+        .project img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-right: 1rem;
+        }
+        
+        .project-info {
+            flex: 1;
+            text-align: left;
+        }
+        
+        .project-info h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .project-info p {
+            font-size: 1.2rem;
+        }
+        /* Resume section styles */
+        
+        #resume {
+            background-color: #f9f9f9;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        
+        #resume h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        #resume p {
+            font-size: 1.2rem;
+        }
+        
+        #resume a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        #resume a:hover {
+            text-decoration: underline;
+        }
+        /* Contact section styles */
+        
+        #contact {
+            background-color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        
+        #contact h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        #contact ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        #contact li {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+        /* Footer styles */
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        
+        footer p,
+        footer ul {
+            margin: 0;
+            padding: 0;
+        }
+        
+        footer ul {
+            list-style-type: none;
+            margin-top: 1rem;
+        }
+        
+        footer ul li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+        
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Sojal Nair</h1>
+            <p>Web Developer & Designer</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <img src="pic.jpg.png" alt="Sojal Nair">
+            <p>A passionate web developer with experience in front-end technologies. Always eager to learn new things and tackle challenging problems.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5 & CSS3</li>
+                <li>JavaScript (ES6+)</li>
+                <li>Responsive Web Design</li>
+                <li>Bootstrap & CSS Frameworks</li>
+                <li>Version Control (Git)</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="project.png" alt="Project 1">
+                <div class="project-info">
+                    <h3> EV charging station finder</h3>
+                    <p>Design a mobile app that helps users plan road trips with optimal electric vehicle charging station routes.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <div class="container">
+            <h2>Resume</h2>
+            <p>Download my <a href="sojalnairresume.pdf" target="_blank">resume</a>.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <ul>
+                <li>Email: sojalnair47@gmail.com</li>
+                <li>Phone: 8551046853</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
